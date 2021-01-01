@@ -1,0 +1,42 @@
+<!-- __________________________This Need Some More Work Of Styling______________________________ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Of Matrix</title>
+</head>
+<body>
+    <script>
+        var matrix1= [[0,0] , [0,0]];
+        var matrix2= [[0,0] , [0,0]];
+        var matrix3= [[0,0] , [0,0]];
+        for (let i = 0;i <matrix1.length; i++){
+            for (let j=0; j <matrix1[i].length; j++){
+                matrix1[i][j] = +prompt("Enter first matrix's values" );
+            }
+        }
+        for (let i = 0;i <matrix2.length; i++){
+            for (let j=0; j <matrix2[i].length; j++){
+                matrix2[i][j] = +prompt("Enter 2nd matrix's values" );
+            }
+        }
+        for (let i = 0;i <matrix3.length; i++){
+            for (let j=0; j <matrix3[i].length; j++){
+               
+                matrix3[i][j] = matrix1[i][j] + matrix2[i][j];
+            }
+        }
+       
+        document.write(matrix1);
+        document.write( "<br>" +matrix2);
+        document.write("<br>" +matrix3);
+
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- __________________________This Need Some More Work Of Styling______________________________ -->
